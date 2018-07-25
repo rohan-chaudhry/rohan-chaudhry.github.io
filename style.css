@@ -5,7 +5,13 @@ html, body {
   height: 100%;
   margin: 8px;
   padding: 0px;
+  background: yellow; 
+  transition: 0.3s all; 
 }
+
+.changeColor{
+   background: white;
+} 
 
 .total {
   
