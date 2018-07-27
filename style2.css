@@ -97,7 +97,6 @@ img{
          font-size: 3.5em;
          color: #000; /* black text */ 
          opacity: 1;
-	 white-space: nowrap; 
          transition: all 2.5s ease;
 }
 \.fly-in-text li:last-child {
