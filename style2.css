@@ -88,7 +88,7 @@ img{
         transform: translateX(-50%) translateY(-50%);
 }
 /* change when 500px wide or less */ 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .fly-in-text{
         top: 70%;
     }
