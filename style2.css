@@ -49,8 +49,8 @@ html, body {
     }
 }
 
-
-mark{ /* highlight change */ 
+/* highlight change */ 
+mark{ 
 	background-color: #87DEE8;
 	color: white; 
 } 
