@@ -86,13 +86,8 @@ img{
         top: 51%;
         transform: translateX(-50%) translateY(-50%);
 }
-/* change when 600px wide or less */ 
-@media screen and (max-width: 600px) {
-    .fly-in-text{
-        top: 70%;
-	font-size: 4px;
-    }
-}
+ 
+
 
 .fly-in-text li {
          display: inline-block;
@@ -102,6 +97,7 @@ img{
          font-size: 3.5em;
          color: #000; /* black text */ 
          opacity: 1;
+	 white-space: nowrap; 
          transition: all 2.5s ease;
 }
 \.fly-in-text li:last-child {
