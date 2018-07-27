@@ -100,7 +100,7 @@ img{
 	 white-space: nowrap; 
          transition: all 2.5s ease;
 }
-.fly-in-text li:last-child {
+/.fly-in-text li:last-child {
          margin-right: 0;
 }
 .fly-in-text.hidden li {
