@@ -87,6 +87,12 @@ img{
         top: 51%;
         transform: translateX(-50%) translateY(-50%);
 }
+/* change when 500px wide or less */ 
+@media screen and (max-width: 500px) {
+    .fly-in-text{
+        top: 60%;
+    }
+}
 
 .fly-in-text li {
          display: inline-block;
