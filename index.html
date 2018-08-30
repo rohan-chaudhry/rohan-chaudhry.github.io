@@ -1,18 +1,26 @@
-<!Doctype html> 
+<!--Doctype html--> 
 <html> 
 	<head>
 		<title>rohan-chaudhry.github.io</title> 
 		<link rel="stylesheet" type="text/css" href="style2.css">
 		<link rel="icon" href="icon.png">
 		
+		
 
 	</head>
 	
 	<body>
+	
+	<!--<div class='vig'></div>
+	commenting out vignette since layers over page, cant click links--> 
 	<div class ='total'> 
 	
+	
 	    <div class='header'> 
-		<h1><font face = "Century Gothic"  ><mark>Rohan Chaudhry</mark></h1> 
+		
+		
+		<h1 class = 'title'>
+		<font face = "Century Gothic" > Rohan Chaudhry</h1> 
 		<br/><br/><br/><br/><br/><br/><br/><br/><br/> 
 		
 		<ul class="fly-in-text hidden" >
@@ -47,23 +55,28 @@
         </script>
 	    </div> 
 
-		<p align='center'>learn more below<br/></p> 
+		<p align='center' font color = 'black'>learn more below<br/></p> 
 
 	<hr/>
 	<div class='mid'>
-		<h4 align='center' font size = '12'>about me</h4> 
-		<p align='left'><img src="mehead.png" alt = 'me' width='275'/> I am a senior mechanical engineering student 
-		minoring in computer science at the University of Texas at Austin. I am interested in 
-		pursuing a full-time career in technical consulting, software engineering, or data analysis. 
-		idk what else to put rn tbh pic coming soon!!!<br/><br/>
-		
-		I am a self taught python software developer and am minoring in computer science to formalize my background in
-		the field. My relevant past coursework includes: ___. Currently, I am enrolled in ____. <br/><br/> 
-		
-		Besides all of that, I love doggos, cooking, and photography. hiking??? granola?? 
-		
+		<h4 align='center' font size = '12' color='black'>about me</h4> 
+		<p align='left'><img src="mehead.png" alt = 'me' width='275'/> I am a senior<mark> mechanical engineering </mark>student 
+		minoring in<mark> computer science </mark>at <mark>the University of Texas at Austin </mark>, and I am interested in 
+		pursuing a full-time career in<mark> technical consulting </mark>,<mark> software engineering </mark>, or<mark> data analysis </mark>.
+		<br/><br/>
+		Currently, I am working alongside a civil engineering professor at UT to analyze campus water and enery consumption.
+		You can learn about the project below, but feel free to reach out if you would like any additional info.
+		<br/><br/> 
+		I am also working with argodesign, an Austin-based design firm, through an Integrated Technology & Design class, in which I'm learning
+		 how to apply engineering pricipals in designing a product that focuses on the user experience and involves a software aspect. 
+		<br/><br/> 
+		In the past, I've worked for Schneider Electric in the north Houston area in their buildings automated systems department,
+		 created custom 3D-printed trophies for student org events alongside my engineering design professor, and served as the Director for 
+		 the Society of Freshman Engineers. 
+		<br/><br/> 
 		Thanks for visiting my site! If you're interested in learning more about what I have done, 
-		you can check out some of my favorites below and some more on my Github. Happy browsing!<br/>
+		you can check out some of my favorites below and some more on my Github. Happy browsing!
+		<br/>
 		
 		<ul class='links' align='left'>
 			<li>
@@ -87,55 +100,73 @@
 	<hr/> 
 	</div> 
 	<h3 align = 'center'>featured work</h3> 
+	<p class='smol'>a few of my favorites<br/></p>
 	<div class="row">
-		<div class="column">
-			<h2 align='left'>energy&water @utexas</h2>
-			<p>pic of line graph?? research with professor</p>
+		<div class="column" >
+		<!--
+			<h2 align='left'>energy&water @utexas</h2>			
+			<a href="https://www.w3schools.com" target="_blank">
+			<img src="watermap.png" alt="Go to W3Schools!" width= '90%' height = 'width' border="0">
+			</a> 
+			analyzing UT's water and energy consumption from 2008 onwards with Python and presenting the 
+			data in an interactive using Javascript --> 
+			<h2>energy&water @utexas</h2>
+			<a href="https://rohan-chaudhry.github.io/utexas-map.github.io/" target="_blank">
+			<img src="watermap2.png" alt="learn about UT's water and energy consumption" width= '90%'  border="0">
+			</a> 
+			<br/>analyzing UT's water and energy consumption from 2008 onwards with Python and presenting the 
+			data in an interactive using Javascript 
+			 
 		</div>
-		<div class="column">
+		<div class="column"> 
 			<h2>tic tac toe</h2>
-			<p>screesnhot - personal project, link to GH</p>
+			<a href="https://github.com/rohan-chaudhry/TicTacToe" target="_blank">
+			<img src="TTTpic.png" alt="the most aestetic tictactoe ever" width= '90%' height = 'width' border="0">
+			</a> 
+			<br/><br/><br/>recreated the classic 2 player game in Java Processing 
 		</div>
 		<div class="column">
 			<h2>2048</h2>
-			<p>screenshot -- cs324 game with interactivity, link to GH</p>
+			<a href="https://github.com/rohan-chaudhry/2048" target="_blank">
+			<img src="2048pic.png" alt="2048 project" align='center'  width= '90%' height = 'width' border="0">
+			<figcaption>
+			</a> 
+			<br/>reinvented 2048 for the final group project in our graphics and data visualization class with 
+				an added emphasis on UI/UX, user interactivity, GUI, and data I/O</figcaption>
+			 
 		</div>
 	</div>
 	<br/>
 	<div class="row">
 		<div class="column">
-			<h2 align='left'>arduino LED array</h2>
-			<p>picture??? link to GH </p>
+			<h2>instagram cropper</h2>
+			<a href="https://github.com/rohan-chaudhry/igcropper" target="_blank">
+			<img src="igpic.png" alt="easy cropping using python" width= '90%' height = 'width' border="0">
+			</a>
+			<p>automated resizing JPG pictures taken on my DSLR to Instagram square dimensions using Python </p>
 		</div>
 		<div class="column">
-			<h2>newton's cradle</h2>
-			<p>screenshot  - personal proj, GH</p>
+			<h2 align='left'>bitcoin widget</h2>
+			<a href="https://github.com/rohan-chaudhry/bitcoin-widget" target="_blank">
+			<img align = 'center' src="widgetpic.png" alt="what is crypto" width= '90%' height = 'width' border="0" >
+			</a>
+			<p>livetrack the prices and %changes of bitcoin using PHP and live information updated from bitstamp.net  </p>
 		</div>
 		<div class="column">
-			<h2>3d printing</h2>
-			<p>mini photo collage, link to STL files in GH</p>
+			<h2 align='left'>this website</h2>
+			<p>a super fun project that I completed in a few days to better showcase my projects and coursework<br/><br/>hosted on Github pages with a frontend developed using HTML, CSS, and Javascript (all of which I learned from making this website)</p>
 		</div>
 	</div>
 	<br/>
-	<div class="row">
-		<div class="column">
-			<h2 align='left'>adobe creative cloud</h2>
-			<p>collage?? PS,IL,Pr logos? link to SEC graphics.. GH?? separate page?? </p>
-		</div>
-		<div class="column">
-			<h2>cs coursework</h2>
-			<p>longhorn but cs themed lmao??? link to GH, coursework files </p>
-		</div>
-		<div class="column">
-			<h2>"this" OR  "upcoming  |  in progress"</h2>
-			<p>-argo<br/>-something<br/>-html css php class?<br/>-sql idk </p>
-		</div>
-	</div>
+	<p class ='pls' align ='center'><a href="https://github.com/rohan-chaudhry" target="_blank">if you're interested in my coursework or other personal projects not mentioned above, please find them on my Github</a></p> 
 	<hr/> 
 	
 	<p align='center'><br/>Rohan Chaudhry, 2018 </p> 
 
 	</div> 
+	
+	
+
 	
 	
 
